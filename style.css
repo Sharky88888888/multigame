@@ -1,0 +1,151 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+}
+
+/* Header styles */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Container for the game buttons */
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Game button styles */
+.game-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 15px 32px;
+    font-size: 1.2em;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.game-button:hover {
+    background-color: #45a049;
+}
+
+/* Back button styles */
+.back-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: #da190b;
+}
+
+/* Style for the result display */
+.result-display {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* CSS for the individual game pages */
+.game-page {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Specific styles for each game */
+
+/* Tic-Tac-Toe */
+.tic-tac-toe {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Memory Game */
+.memory-game {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Quiz Game */
+.quiz-game {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Pong Game */
+.pong-game {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Snake Game */
+.snake-game {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Simple Adventure Game */
+.adventure-game {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Chess Game */
+.chess-game {
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
