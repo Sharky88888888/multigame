@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><title>Quiz Game</title></head>
+<body>
+  <h2>🧠 Quiz Game</h2>
+  <form method="post">
+    {% for q in questions %}
+      <p><strong>{{ q }}</strong><br>
+      <input name="{{ q }}" required></p>
+    {% endfor %}
+    <button type="submit">Submit</button>
+  </form>
+  {% if submitted %}
+    <p>Your score: {{ score }}/{{ questions|length }}</p>
+  {% endif %}
+  <br><a href="/">&larr; Back to Menu</a>
+</body>
+</html>
