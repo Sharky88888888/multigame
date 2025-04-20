@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Guess the Number</title></head>
+<body>
+  <h2>🤔 Guess the Number (1 to 100)</h2>
+  <form method="post">
+    <input name="guess" type="number" required>
+    <button type="submit">Guess</button>
+  </form>
+  {% if result %}
+    <p>{{ result }}</p>
+  {% endif %}
+  <br><a href="/">&larr; Back to Menu</a>
+</body>
+</html>
